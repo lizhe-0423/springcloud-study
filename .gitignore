@@ -1,0 +1,5 @@
+# 项目排除路径
+/commons/target/
+/service-book/target/
+/service-borrow/target/
+/service-user/target/

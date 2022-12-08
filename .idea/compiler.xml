@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-book" />
+        <module name="service-user" />
+        <module name="service-borrow" />
+        <module name="commons" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="commons" target="11" />
+      <module name="service-book" target="8" />
+      <module name="service-borrow" target="8" />
+      <module name="service-user" target="8" />
+      <module name="springcloud-study" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="commons" options="-parameters" />
+      <module name="service-book" options="-parameters" />
+      <module name="service-borrow" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="springcloud-study" options="-parameters" />
+    </option>
+  </component>
+</project>
